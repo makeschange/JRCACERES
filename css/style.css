@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#profile .container-fluid{
+    padding: 3% 15% 7%;  background-color: #9fe6a0;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+.navbar-brand{
+    font-size: 3rem;
+}
+.color-white{
+    line-height: 1.2;
+    color: #fff;
+}
+.title-content{
+  margin-top:7%;
+  padding: 50px 0px;
+  box-shadow: 2px 2px 15px #4aa96c;
+  border-radius: 10px;
+  font-family: 'Dancing Script', cursive;
+}
+.title-container-1{
+    padding-left:3%;
+}
+.view-profile-btn{
+    border-radius: 30px;
+    margin: 5% 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item{
+    padding-right: 3%;
+}
+.title-container-2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.image-title{
+    width: 60%;
+}
+/* Features */
+
+.features-title{
+    font-size: 2rem; line-height: 2;
+}
+.first-comment{
+  line-height: 1.5rem;
+}
+.fa-user{
+  color: #00ff00;
+}
+.fa-thumbs-up{
+  color: #C67ACE;
+}
+.fa-user-shield {
+  color: #0000ff;
+}
+/* image-slider */
+.image-slider{
+  background-color: #9fe6a0;
+}
+.slide-img{
+  width: 40%;
+}
+.second-comment{
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  line-height: 3rem;
+}
+/* Contacts*/
+.card-img-top{
+  width:50%;
+}
+.card-header{
+  color: #fff;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-body a{
+  text-decoration: none;
+  color: #04009A;
+}
+/* direct-message */
+#direct-message{
+  background-color: #9fe6a0;
+}
+
+/* footer */
+.log{
+  margin: 0px 20px;
+}
+/* footer-nav */
+.footer-nav ul{
+ list-style:none;
+ display:inline-block;
+}
+.footer-nav ul li{
+ display:inline-block;
+ margin:0 10px;
+ border-right:2px solid #000;
+ padding-right: 20px;
+}
+.footer-nav ul li a{
+  text-decoration: none;
+   color: #000;
+   font-weight: bolder;
+}
+/* media queries */
+@media(max-width:992px){
+  .title-content{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+  .press h1{
+    font-size: 1.5rem;
+  }
+  .card-header{
+    font-size: .9rem;
+  }
+  .card-body a{
+    font-size: .7rem;
+  }
+  .dm{
+    font-size: 1rem;
+  }
+}
