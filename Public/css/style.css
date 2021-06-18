@@ -104,7 +104,7 @@ body{
  display:inline-block;
  margin:0 10px;
  border-right:2px solid #000;
- padding-right: 20px;
+ padding-right: 10px;
 }
 .footer-nav ul li a{
   text-decoration: none;
@@ -121,15 +121,18 @@ body{
     font-size: 1.5rem;
   }
   .card-header{
-    font-size: .9rem;
+    font-size: .5rem;
   }
   .card-body a{
-    font-size: .7rem;
+    font-size: .5rem;
   }
   .dm{
-    font-size: 1rem;
+    font-size: .8rem;
   }
   .footer-nav ul li a{
-      font-size: .7rem;
+      font-size: .5rem;
+  }
+  .copyright{
+    font-size: .8rem;
   }
 }
