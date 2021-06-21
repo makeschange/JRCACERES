@@ -21,7 +21,7 @@ body{
 .title-content{
   margin-top:7%;
   padding: 50px 0px;
-  box-shadow: 2px 2px 15px #4aa96c;
+  box-shadow: 3px 1px 5px green;
   border-radius: 10px;
   font-family: 'Dancing Script', cursive;
 }
@@ -31,6 +31,7 @@ body{
 .view-profile-btn{
     border-radius: 30px;
     margin: 5% 0;
+    box-shadow: 2px 2px 7px yellow;
     font-family: 'Montserrat', sans-serif;
 }
 .nav-item{
@@ -50,12 +51,24 @@ body{
 }
 .fa-user{
   color: #00ff00;
+  padding:5px;
+  box-shadow: 1px 1px 5px #000;
+  border-radius:5px;
+  border:none;
 }
 .fa-thumbs-up{
   color: #C67ACE;
+  padding:5px;
+  box-shadow: 2px 2px 5px #000;
+  border-radius:5px;
+  border:none;
 }
 .fa-user-shield {
   color: #0000ff;
+  padding:5px;
+  box-shadow: 2px 2px 5px #000;
+  border-radius:5px;
+  border:none;
 }
 
 /* image-slider */
@@ -74,6 +87,13 @@ body{
 /* Contacts*/
 .card-img-top{
   width:50%;
+  box-shadow:2px 2px 5px #000;
+  border-radius:50%;
+  border:none;
+}
+.card{
+  box-shadow:3px 1px 5px #000;
+  border:none;
 }
 .card-header{
   color: #fff;
@@ -94,6 +114,10 @@ body{
 /* footer */
 .log{
   margin: 0px 20px;
+  padding:5px;
+  box-shadow: 1px 1px 5px #000;
+  border-radius:50%;
+  border:none;
 }
 /* footer-nav */
 .footer-nav ul{
